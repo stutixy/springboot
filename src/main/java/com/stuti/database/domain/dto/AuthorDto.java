@@ -1,4 +1,4 @@
-package com.stuti.database.domain;
+package com.stuti.database.domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,10 +6,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
-public class Author {
+public class AuthorDto {
 
     private long id;
 
